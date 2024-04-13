@@ -1,0 +1,31 @@
+// O paradigma procedural se baseia na ideia de escrever programas como uma sequência de instruções a serem executadas em ordem, onde as funções desempenham um papel fundamental para organizar o código.
+
+
+#include <stdio.h>
+
+int main() {
+  // Declaração de variáveis
+  float numero1, numero2, numero3, media;
+
+  // Entrada de dados
+  printf("Digite o primeiro número: ");
+  scanf("%f", &numero1);
+
+  printf("Digite o segundo número: ");
+  scanf("%f", &numero2);
+
+  printf("Digite o terceiro número: ");
+  scanf("%f", &numero3);
+
+  // Cálculo da média
+  media = (numero1 + numero2 + numero3) / 3;
+
+  // Apresentação do resultado
+  printf("A média dos números é: %.2f\n", media);
+
+  return 0;
+}
+
+//Sequência de Instruções: O programa segue uma ordem passo a passo, desde a entrada de dados até o cálculo e a apresentação da média.
+//Funções como Blocos de Construção: A função main() contém as instruções principais, enquanto scanf() e printf() auxiliam na interação com o usuário.
+//Foco no Fluxo: A ênfase está na ordem das instruções, determinando como as ações são executadas.
