@@ -1,0 +1,39 @@
+//Paradigma funcional em C
+//O paradigma funcional é um estilo de programação que se baseia na avaliação de funções matemáticas e evita a mudança de estado e dados mutáveis.
+
+//Conceitos:
+//Imutabilidade: O conceito de imutabilidade na programação significa que uma variável, que ao longo do código foi carregada com um valor, vai manter esse valor enquanto o programa estiver sendo executado, sem voltar a mudar seu estado.
+#include <stdio.h>
+
+#define NUMERO_UNICO 34
+
+int main() {
+    // Tentativa de modificar a constante NUMERO_UNICO
+    // Isso não é permitido em C
+    // NUMERO_UNICO = 27;
+
+    // Imprimindo o valor da constante NUMERO_UNICO
+    printf("O valor da constante NUMERO_UNICO é: %d\n", NUMERO_UNICO);
+
+    return 0;
+}
+//Funções puras
+//Chamamos de função pura todas as funções que, quando invocadas mais de uma vez, produzem exatamente o mesmo resultado. 
+#include <stdio.h>
+
+// Função pura que calcula a área de um retângulo
+int calcular_area_retangulo(int comprimento, int largura) {
+    return comprimento * largura;
+}
+
+int main() {
+    int comprimento = 5;
+    int largura = 3;
+
+    // Chamando a função para calcular a área do retângulo
+    int area = calcular_area_retangulo(comprimento, largura);
+
+    printf("A área do retângulo com comprimento %d e largura %d é: %d\n", comprimento, largura, area);
+
+    return 0;
+}
