@@ -6,3 +6,9 @@ Requisitos de instalação
 2 - Ambiente de Desenvolvimento ou Editor de Texto: Para escrever, editar e gerenciar seu código, você pode usar um ambiente de desenvolvimento integrado (IDE) como o Visual Studio Code ou um editor de texto como o Sublime Text.
 
 Os exemplos foram desenvolvidos e compilados usando a ferramenta "replit".
+
+Procedural - https://replit.com/@ThiagoAlmeida18/linguagens-de-programacao
+
+Imperativo - https://replit.com/@ThiagoAlmeida18/linguagens-de-programacao-imperativo
+
+Funcional - https://replit.com/@ThiagoAlmeida18/linguagens-de-programacao-funcional#main.c
